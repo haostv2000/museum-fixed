@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./booking-tickets-style.css">
+    <title>Booking Tickets</title>
+</head>
+<body>
+    <div class="booking-tickets">
+        <section class="booking-fields">
+            <div class="title">
+                <div class="logo"></div>
+                <h1>Booking tickets</h1>
+                <h4>Tour to Louvre</h4>
+                <div class="stroke"></div>
+            </div>
+            <form action="" class="booking-form">
+                <div class="date-and-time">
+                    <div class="date">
+                        <div class="wrapper wrapper-date">
+                            <div class="icon date-icon"></div>
+                            <p>Date</p>
+                            
+                        </div>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="time">
+                        <div class="wrapper wrapper-time">
+                            <div class="icon time-icon"></div>
+                            <p>Time</p>
+                            
+                        </div>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+                <div class="name">
+                    <div class="wrapper wrapper-name">
+                        <div class="icon name-icon"></div>
+                        <p>Name</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="wrapper wrapper-email">
+                        <div class="icon email-icon"></div>
+                        <p>E-mail</p>
+                    </div>
+                </div>
+                <div class="phone">
+                    <div class="wrapper wrapper-phone">
+                        <div class="icon phone-icon"></div>
+                        <p>Phone</p>
+                    </div>
+                </div>
+                <div class="ticket-type">
+                    <div class="wrapper wrapper-ticket-type">
+                        <div class="icon ticket-type-icon"></div>
+                        <p>Ticket Type</p>
+                        
+                    </div>
+                    <div class="arrow"></div>
+                </div>
+            </form>
+            <div class="entry-ticket">
+                <div class="entry-ticket-header">
+                    <h4>Entry ticket</h4>
+                    <div class="stroke"></div>
+                </div>
+                <div class="counter">
+                    <p>Basic 18+ (20 €)</p>
+                    <div class="counter-wrapper">
+                        <span class="minus" onclick="changeCount('basic', -1)">
+                            −
+                        </span>
+                        <span id="basic-count">
+                            2
+                        </span>
+                        <span class="plus" onclick="changeCount('basic', 1)">
+                            +
+                        </span>
+                    </div>
+                </div>
+                <div class="counter">
+                    <p>Senior 65+ (10 €)</p>
+                    <div class="counter-wrapper">
+                        <span class="minus" onclick="changeCount('basic', -1)">
+                            −
+                        </span>
+                        <span id="senior-count">
+                            2
+                        </span>
+                        <span class="plus" onclick="changeCount('basic', 1)">
+                            +
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="payment">
+            <div class="overview">
+                <div class="overview-info">
+                    <h2>Overview</h2>
+                    <h3>Tour to Louvre</h3>
+                    <div class="info date-info">
+                        <div class="date-icon"></div>
+                        <p>Friday, August 19</p>
+                    </div>
+                    <div class="info time-info">
+                        <div class="time-icon"></div>
+                        <p>16 : 30</p>
+                    </div>
+                    <div class="info exhibition-info">
+                        <div class="accept-icon"></div>
+                        <p>Temporary exhibition</p>
+                    </div>
+                </div>
+                <div class="overview-image"></div>
+            </div>
+            <div class="total">
+                <div class="amount basic-total">
+                    <div class="amount-box">
+                        <span>2</span>
+                        <p>Basic (20 €)</p>
+                    </div>
+                    <p>40 €</p>
+                </div>
+                <div class="amount senior-total">
+                    <div class="amount-box">
+                        <span>2</span>
+                        <p>Senior (10 €)</p>
+                    </div>
+                    <p>20 €</p>
+                </div>
+                <div class="stroke"></div>
+                <div class="price-total">
+                    <p>Total:</p>
+                    <p>60 €</p>
+                </div>
+            </div>
+            <form action="" class="cards-info">
+                <div class="payment-cards">
+                    <div class="card card-front">
+                        <label for="cardNumber">Card number</label>
+                        <input type="number" name="card-number" id="cardNumber">
+                        <label for="">Expiration date</label>
+                        <div class="expiration-date">
+                            <input type="number" name="date-month" id="month" class="date-month">
+                            <div class="custom-spinner custom-spinner-month">
+                                <div class="payment-arrow" onclick="changeMonth(1)"></div>
+                                <div class="payment-arrow" onclick="changeMonth(-1)"></div>
+                            </div>
+                            <input type="number" name="date-year" id="year" class="date-year">
+                            <div class="custom-spinner custom-spinner-year">
+                                <div class="payment-arrow" onclick="changeYear(1)"></div>
+                                <div class="payment-arrow" onclick="changeYear(-1)"></div>
+                            </div>
+                        </div>
+                        <label for="">Cardholder name</label>
+                        <input type="text" name="" id="">
+                        <div class="visa"></div>
+                        <div class="mastercard"></div>
+                    </div>
+                    <div class="card card-end">
+                        <div class="black-rectangle"></div>
+                        <div class="card-end-info">
+                            <label for="cardCode">CVC/CVV</label>
+                            <input type="number" name="" id="cardCode">
+                            <p>
+                                <span>
+                                    The last
+                                </span> 
+                                    3 or 4 digits
+                                    on back
+                                    of the card
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-book">
+                    <span>Book</span>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div class="line-cross line-cross" onclick="window.location.href = './louvre.html'"></div>
+    <div class="line-cross line-cross-reverse" onclick="window.location.href = './louvre.html'"></div>
+    <script src="./scripts/booking.js"></script>
+</body>
+</html>

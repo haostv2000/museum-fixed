@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1920px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.stroke{
+    width: 400px;
+    height: 3px;
+    background-color: #740c11;
+}
+
+.payment-arrow{
+    width: 6px;
+    height: 4px;
+    background-image: url(./assets/images/svg/payment-arrow.svg);
+}
+
+.line-cross{
+    background-image: url(./assets/images/svg/cross.svg);
+    height: 25px;
+    width: 25px;
+    position:absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.line-cross:hover{
+    cursor: pointer;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+
+.line-cross-reverse{
+    transform: rotate(90deg);
+    right: 27.5px;
+}
+
+.input:hover{
+    cursor:text;
+}
+
+.name:hover,
+.email:hover,
+.phone:hover{
+   cursor:text; 
+}
+
+
+
+/*---------------------------------- BOOKING SECTION ------------------------------------*/
+
+.booking-tickets{
+    width: 970px;
+    height: 663px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-fields{
+    width: 400px;
+    height: 663px;
+}
+
+.title{
+    width: 400px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title .logo{
+    width: 85px;
+    height: 41px;
+    background-image: url(./assets/images/svg/booking-tickets-logo.svg);
+}
+
+.title h1{
+    font-family: 'Forum', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color:#9D8665;
+}
+
+.title h4{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #710707;
+}
+
+.booking-form{
+    width: 400px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.booking-form > div{
+    width: 368px;
+    height: 45px;
+    border: 1px solid #030303;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.booking-fields .booking-form .date-and-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0;
+    width: 400px;
+}
+
+.date-and-time > div{
+    width: 128px;
+    height: 45px;
+    border: 1px solid #030303;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.date-icon{
+    width: 15px;
+    height: 15px;
+    background-image: url(./assets/images/svg/date.svg);
+}
+
+.time-icon{
+    width: 15px;
+    height: 15px;
+    background-image: url(./assets/images/svg/time.svg);
+}
+
+.name-icon{
+    width: 13px;
+    height: 15px;
+    background-image: url(./assets/images/svg/name.svg);
+}
+
+.email-icon{
+    width: 15px;
+    height: 11px;
+    background-image: url(./assets/images/svg/email.svg);
+}
+
+.phone-icon{
+    width: 14px;
+    height: 23px;
+    background-image: url(./assets/images/svg/tel.svg);
+}
+
+.ticket-type-icon{
+    width: 15px;
+    height: 15px;
+    background-image: url(./assets/images/svg/ballot.svg);
+}
+
+.entry-ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 134px;
+    border: 1px solid #030303;
+}
+
+.arrow{
+    height: 17px;
+    width: 17px;
+    background-image: url(./assets/images/svg/arrow.svg);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-and-time .wrapper{
+    height: 20px;
+    justify-content: flex-start;
+}
+
+.date-and-time .icon{
+    margin-right: 15px;
+}
+
+.wrapper-name{
+    width: 78px;
+    height: 19.81px;
+}
+
+.wrapper-name p{
+    width: 50px;
+    height: 19.81px;
+}
+
+.wrapper-email{
+    width: 79px;
+    height: 20px;
+}
+
+.wrapper-email p{
+    width: 50px;
+    height: 20px;
+}
+
+.wrapper-phone{
+    height: 23px;
+    width: 129px;
+}
+
+.wrapper-phone p{
+    width: 100px;
+    height: 20px;
+}
+
+.wrapper-ticket-type{
+    width: 125px;
+    height: 20px;
+}
+
+.wrapper-ticket-type p{
+    width: 95px;
+    height: 20px;
+    margin-left: 14px;
+}
+
+.booking-form .ticket-type{
+    justify-content: space-between;
+}
+
+.booking-form .ticket-type .arrow{
+    margin: 0;
+}
+
+.booking-form p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+
+}
+
+.entry-ticket .stroke{
+    width: 370px;
+    margin-top: 5px;
+}
+
+.entry-ticket h4{
+    font-family: 'Forum',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color:#9D8665;
+    align-self: flex-start;
+}
+
+.entry-ticket p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    width: 142px;
+}
+
+.counter{
+    width: 370px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 105px;
+    height: 25px;
+    border: 1px solid #030303;
+}
+
+.counter-wrapper span{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.minus, .plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 25px;
+    background-color: #030303;
+    color: #fff;
+}
+
+
+
+/*------------------------------------ OVERVIEW SECTION ---------------------------------*/
+
+.payment{
+    width: 470px;
+    height: 613px;
+    border: 1px solid #030303;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    padding: 25px 30px;
+}
+
+.overview{
+    width: 470px;
+    height: 151px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-info{
+    width: 196px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.overview-info h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #272727;
+
+}
+
+.overview-info h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #740C11;
+}
+
+.overview-info .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info > p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.date-info{
+    width: 166px;
+}
+
+.date-info p{
+    width: 136px;
+}
+
+.time-info{
+    width: 83px;
+    height: 21px;
+}
+
+.time-info p{
+    width: 53px;
+    height: 100%;
+}
+
+.exhibition-info{
+    width: 196px;
+    height: 22px;
+}
+
+.exhibition-info p{
+    width: 166px;
+    height: 22px;
+}
+
+.accept-icon{
+    width: 15px;
+    height: 15px;
+    background-image: url(./assets/images/svg/accept.svg);
+}
+
+.overview-image{
+    background-image: url(./assets/images/png/overview-image.png);
+    height: 120px;
+    width: 150px;
+    align-self: flex-start;
+}
+
+.total{
+    width: 470px;
+    height: 117px;
+}
+
+.total .stroke{
+    width: 470px;
+    height: 2px;
+    margin: 10px 0;
+}
+
+.amount{
+    height: 27px;
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount-box >  p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.amount p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.amount-box{
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.amount-box span{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #A4A4A3;
+    height: 20px;
+    width: 32px;
+    background-color: #030303;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.price-total{
+    width: 470px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-total p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.price-total :last-child{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.payment-cards{
+    height: 241px;
+    width: 470px;
+    position: relative;
+}
+
+.card{
+    width: 320px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    border-radius: 2px;
+    padding: 15px 20px;
+}
+
+.card-front{
+    position: absolute; 
+    top: 10px;
+    background-color: #BCBCBC;
+    z-index:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-end{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    background-color:#939393;
+    z-index:1;
+    padding: 25px 0 0 0;
+    height: 186px;
+    width: 360px;
+}
+
+.card-end-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 75px;
+    position: relative;
+    top: 0;
+    left: 265px;
+}
+
+.card-end-info p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 0;
+    width: 55px;
+    height: 50px;
+    color:#161615;
+    text-align: left;
+    white-space: normal; /* Разрешаем перенос текста на следующую строку */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#cardCode{
+    border: none;
+    height: 35px;
+    width: 75px;
+}
+
+.card-end-info > label{
+    width: 57px;
+    height: 15px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.btn-book{
+    width: 220px;
+    height: 45px;
+}
+
+
+.cards-info{
+    height: 312px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card > input{
+    height: 35px; 
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.card > label{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.card-front input[type="text"]
+{
+    width: 300px;
+    padding: 0 10px;
+}
+
+#cardNumber{
+    width: 195px;
+    padding: 0 10px;
+}
+
+#cardCode{
+    width: 75px;
+}
+
+.date-month,
+.date-year{
+    height: 35px;
+    width: 90px;
+    border: none;
+    padding-left: 10px;
+}
+
+.expiration-date{
+    height: 35px;
+    width: 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-spinner{
+    width: 28px;
+    height: 11px;
+    position: absolute;
+    border-left: 0.5px solid #A4A4A3;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-spinner :last-child{
+    transform: rotate(180deg);
+}
+
+.custom-spinner-year{
+    top: 98px;
+    left: 207px;
+}
+
+.custom-spinner-month{
+    top: 98px;
+    left: 92px;
+}
+
+.black-rectangle{
+    background-color: black;
+    height: 45px;
+    width: 360px;
+    margin-bottom: 15px;
+}
+
+.visa{
+    width: 55px;
+    height: 16px;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    background-image: url(./assets/images/svg/visa.svg);
+}
+
+.mastercard{
+    width: 53px;
+    height: 32px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-image: url(./assets/images/svg/mastercard.svg);
+}
+
+.btn-book{
+    width: 220px;
+    height: 45px;
+    background-color: #710707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.btn-book span{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
