@@ -15,13 +15,12 @@
                 <h4>Tour to Louvre</h4>
                 <div class="stroke"></div>
             </div>
-            <form action="" class="booking-form">
+            <form action="#" class="booking-form"> 
                 <div class="date-and-time">
                     <div class="date">
                         <div class="wrapper wrapper-date">
                             <div class="icon date-icon"></div>
                             <p>Date</p>
-                            
                         </div>
                         <div class="arrow"></div>
                     </div>
@@ -29,7 +28,6 @@
                         <div class="wrapper wrapper-time">
                             <div class="icon time-icon"></div>
                             <p>Time</p>
-                            
                         </div>
                         <div class="arrow"></div>
                     </div>
@@ -56,7 +54,6 @@
                     <div class="wrapper wrapper-ticket-type">
                         <div class="icon ticket-type-icon"></div>
                         <p>Ticket Type</p>
-                        
                     </div>
                     <div class="arrow"></div>
                 </div>
@@ -69,32 +66,19 @@
                 <div class="counter">
                     <p>Basic 18+ (20 €)</p>
                     <div class="counter-wrapper">
-                        <span class="minus" onclick="changeCount('basic', -1)">
-                            −
-                        </span>
-                        <span id="basic-count">
-                            2
-                        </span>
-                        <span class="plus" onclick="changeCount('basic', 1)">
-                            +
-                        </span>
+                        <span class="minus" onclick="changeCount('basic', -1)">−</span>
+                        <span id="basic-count">2</span>
+                        <span class="plus" onclick="changeCount('basic', 1)">+</span>
                     </div>
                 </div>
                 <div class="counter">
                     <p>Senior 65+ (10 €)</p>
                     <div class="counter-wrapper">
-                        <span class="minus" onclick="changeCount('basic', -1)">
-                            −
-                        </span>
-                        <span id="senior-count">
-                            2
-                        </span>
-                        <span class="plus" onclick="changeCount('basic', 1)">
-                            +
-                        </span>
+                        <span class="minus" onclick="changeCount('basic', -1)">−</span>
+                        <span id="senior-count">2</span>
+                        <span class="plus" onclick="changeCount('basic', 1)">+</span>
                     </div>
                 </div>
-                
             </div>
         </section>
         <section class="payment">
@@ -138,12 +122,13 @@
                     <p>60 €</p>
                 </div>
             </div>
-            <form action="" class="cards-info">
+            <form action="#" class="cards-info"> 
                 <div class="payment-cards">
                     <div class="card card-front">
                         <label for="cardNumber">Card number</label>
                         <input type="number" name="card-number" id="cardNumber">
-                        <label for="">Expiration date</label>
+                        
+                        <label for="month">Expiration date</label> 
                         <div class="expiration-date">
                             <input type="number" name="date-month" id="month" class="date-month">
                             <div class="custom-spinner custom-spinner-month">
@@ -156,8 +141,9 @@
                                 <div class="payment-arrow" onclick="changeYear(-1)"></div>
                             </div>
                         </div>
-                        <label for="">Cardholder name</label>
-                        <input type="text" name="" id="">
+
+                        <label for="cardholder">Cardholder name</label> 
+                        <input type="text" name="cardholder" id="cardholder">
                         <div class="visa"></div>
                         <div class="mastercard"></div>
                     </div>
@@ -165,14 +151,9 @@
                         <div class="black-rectangle"></div>
                         <div class="card-end-info">
                             <label for="cardCode">CVC/CVV</label>
-                            <input type="number" name="" id="cardCode">
+                            <input type="number" name="card-code" id="cardCode"> 
                             <p>
-                                <span>
-                                    The last
-                                </span> 
-                                    3 or 4 digits
-                                    on back
-                                    of the card
+                                <span>The last</span> 3 or 4 digits on back of the card
                             </p>
                         </div>
                     </div>
