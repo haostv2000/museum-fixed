@@ -25,10 +25,10 @@ playPauseBtn.addEventListener("click", () => {
   if (video.paused) {
     stopAllVideos(); 
     video.play();
-    playPauseBtnSmall.src = "./assets/images/svg/pause-btn.svg"; 
+    playPauseBtnSmall.src = "/assets/images/svg/pause-btn.svg"; 
   } else {
     video.pause();
-    playPauseBtnSmall.src = "./assets/images/svg/video-play-small-btn.svg"; 
+    playPauseBtnSmall.src = "/assets/images/svg/video-play-small-btn.svg"; 
   }                                  
 });
 
@@ -38,10 +38,10 @@ playPauseBtnSmall.addEventListener("click", () => {
   if (video.paused) {
     stopAllVideos();
     video.play();
-    playPauseBtnSmall.src = "./assets/images/svg/pause-btn.svg"; 
+    playPauseBtnSmall.src = "/assets/images/svg/pause-btn.svg"; 
   } else {
     video.pause();
-    playPauseBtnSmall.src = "./assets/images/svg/video-play-small-btn.svg"; 
+    playPauseBtnSmall.src = "/assets/images/svg/video-play-small-btn.svg"; 
   }                   
 });
 
