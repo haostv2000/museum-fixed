@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -1183,5 +1187,32 @@ footer nav ul{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+
+
+/*------------------- CHANGE STYLES :HOVER :ACTIVE ETC... ------------------------*/
+
+
+.discover-louvre-btn:hover,
+.buy-now:hover {
+  background-color: #9D8665; 
+  cursor: pointer;           
+  transform: scale(1.05);    
+  transition: all 0.3s ease;
+}
+
+.discover-louvre-btn:active,
+.buy-now:active {
+  background-color: #9D8665; 
+  transform: scale(0.98);    
+  transition: all 0.1s ease;
+}
+
+.discover-louvre-btn:focus,
+.buy-now:focus {
+  outline: 2px solid #9D8665; 
+  outline-offset: 2px;
 }
 
