@@ -28,7 +28,7 @@ h1{
 .logo{
     height: 33px;
     width: 199px;
-    background-image: url(/assets/images/png/logo.png);
+    background-image: url(../assets/images/png/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -414,7 +414,7 @@ button:focus {
   left: 0;
   width: 720px;
   height: 700px;
-  background-image: url(/assets/images/png/picture-explore-dark.png);
+  background-image: url(../assets/images/png/picture-explore-dark.png);
   background-size: cover;
   background-position: center;
   z-index: 5;
@@ -426,7 +426,7 @@ button:focus {
   left: 0;
   width: 360px; 
   height: 700px;
-  background-image: url(/assets/images/png/picture-explore-light.jpg);
+  background-image: url(../assets/images/png/picture-explore-light.jpg);
   background-size: cover;
   background-position: center left;
   z-index: 10;
@@ -441,7 +441,7 @@ button:focus {
   z-index: 999;
   width: 39px;
   height: 700px;
-  background-image: url(/assets/images/svg/explore-slider.svg);
+  background-image: url(../assets/images/svg/explore-slider.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -655,7 +655,7 @@ button:focus {
 .arrows-video-slider{
     width: 10px;
     height: 12px;
-    background-image: url(/assets/images/svg/vector-stroke-left.svg);
+    background-image: url(../assets/images/svg/vector-stroke-left.svg);
 }
 
 .arrow-video-right{
@@ -730,62 +730,62 @@ button:focus {
 
 .gallery-card1 {
     grid-row: span 4;
-    background-image: url(/assets/images/png/galery2_1.png);
+    background-image: url(../assets/images/png/galery2_1.png);
 }
 
 .gallery-card2 {
     grid-row: span 3;
-    background-image: url(/assets/images/png/galery1_1.png);
+    background-image: url(../assets/images/png/galery1_1.png);
 }
 
 .gallery-card3 {
     grid-row: span 4;
-    background-image: url(/assets/images/png/galery7_1.png);
+    background-image: url(../assets/images/png/galery7_1.png);
 }
 
 .gallery-card4 {
     grid-row: span 4;
-    background-image: url(/assets/images/png/galery8_1.png);
+    background-image: url(../assets/images/png/galery8_1.png);
 }
 
 .gallery-card5 {
     grid-row: span 4;
-    background-image: url(/assets/images/png/galery9_1.png);
+    background-image: url(../assets/images/png/galery9_1.png);
 }
 
 .gallery-card6 {
     grid-row: span 3;
-    background-image: url(/assets/images/png/galery10_1.png);
+    background-image: url(../assets/images/png/galery10_1.png);
 }
 
 .gallery-card7 {
     grid-row: span 3;
-    background-image: url(/assets/images/png/galery3\ _1.png);
+    background-image: url(../assets/images/png/galery3\ _1.png);
 }
 
 .gallery-card8 {
     grid-row: span 4;
-    background-image: url(/assets/images/png/galery15_1.png);
+    background-image: url(../assets/images/png/galery15_1.png);
 }
 
 .gallery-card9 {
     grid-row: span 3;
-    background-image: url(/assets/images/png/galery4_1.png);
+    background-image: url(../assets/images/png/galery4_1.png);
 }
 
 .gallery-card10 {
     grid-row: span 3;
-    background-image: url(/assets/images/png/galery5_1.png);
+    background-image: url(../assets/images/png/galery5_1.png);
 }
 
 .gallery-card11 {
     grid-row: span 2;
-    background-image: url(/assets/images/png/galery6_1.png);
+    background-image: url(../assets/images/png/galery6_1.png);
 }
 
 .gallery-card12 {
     grid-row: span 2;
-    background-image: url(/assets/images/png/galery12_1.png);
+    background-image: url(../assets/images/png/galery12_1.png);
 }
 
 /* Поднятие второго столбца */
@@ -832,7 +832,7 @@ button:focus {
 }
 
 .ticket-image{
-    background-image: url(/assets/images/png/ticket-image.png);
+    background-image: url(../assets/images/png/ticket-image.png);
     width: 720px;
     height: 550px;
     
@@ -986,7 +986,7 @@ button:focus {
 .parallax{
     width: 1920px;
     height: 400px;
-    background-image: url(/assets/images/png/parallax\ 1.png);
+    background-image: url(../assets/images/png/parallax\ 1.png);
 }
 
 
@@ -1056,7 +1056,7 @@ button:focus {
 .contacts-map{
     width: 960px;
     height: 620px;
-    background-image: url(/assets/images/png/contacts-map.png);
+    background-image: url(../assets/images/png/contacts-map.png);
     align-self: flex-end;
 }
 
@@ -1149,23 +1149,23 @@ footer nav ul{
 }
 
 .social-icon-youtube{
-    background-image: url(/assets/images/svg/youtube-icon.svg);
+    background-image: url(../assets/images/svg/youtube-icon.svg);
 }
 
 .social-icon-instagram{
-    background-image: url(/assets/images/svg/instagram-icon.svg);
+    background-image: url(../assets/images/svg/instagram-icon.svg);
 }
 
 .social-icon-facebook{
-    background-image: url(/assets/images/svg/facebook-icon.svg);
+    background-image: url(../assets/images/svg/facebook-icon.svg);
 }
 
 .social-icon-twitter{
-    background-image: url(/assets/images/svg/twitter-icon.svg);
+    background-image: url(../assets/images/svg/twitter-icon.svg);
 }
 
 .social-icon-pinterest{
-    background-image: url(/assets/images/svg/pinterest-cion.svg);
+    background-image: url(../assets/images/svg/pinterest-cion.svg);
 }
 
 .last-string{

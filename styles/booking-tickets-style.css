@@ -31,11 +31,11 @@ body{
 .payment-arrow{
     width: 6px;
     height: 4px;
-    background-image: url(/assets/images/svg/payment-arrow.svg);
+    background-image: url(../assets/images/svg/payment-arrow.svg);
 }
 
 .line-cross{
-    background-image: url(/assets/images/svg/cross.svg);
+    background-image: url(../assets/images/svg/cross.svg);
     height: 25px;
     width: 25px;
     position:absolute;
@@ -97,7 +97,7 @@ body{
 .title .logo{
     width: 85px;
     height: 41px;
-    background-image: url(/assets/images/svg/booking-tickets-logo.svg);
+    background-image: url(../assets/images/svg/booking-tickets-logo.svg);
 }
 
 .title h1{
@@ -163,37 +163,37 @@ body{
 .date-icon{
     width: 15px;
     height: 15px;
-    background-image: url(/assets/images/svg/date.svg);
+    background-image: url(../assets/images/svg/date.svg);
 }
 
 .time-icon{
     width: 15px;
     height: 15px;
-    background-image: url(/assets/images/svg/time.svg);
+    background-image: url(../assets/images/svg/time.svg);
 }
 
 .name-icon{
     width: 13px;
     height: 15px;
-    background-image: url(/assets/images/svg/name.svg);
+    background-image: url(../assets/images/svg/name.svg);
 }
 
 .email-icon{
     width: 15px;
     height: 11px;
-    background-image: url(/assets/images/svg/email.svg);
+    background-image: url(../assets/images/svg/email.svg);
 }
 
 .phone-icon{
     width: 14px;
     height: 23px;
-    background-image: url(/assets/images/svg/tel.svg);
+    background-image: url(../assets/images/svg/tel.svg);
 }
 
 .ticket-type-icon{
     width: 15px;
     height: 15px;
-    background-image: url(/assets/images/svg/ballot.svg);
+    background-image: url(../assets/images/svg/ballot.svg);
 }
 
 .entry-ticket{
@@ -209,7 +209,7 @@ body{
 .arrow{
     height: 17px;
     width: 17px;
-    background-image: url(/assets/images/svg/arrow.svg);
+    background-image: url(../assets/images/svg../arrow.svg);
 }
 
 .wrapper{
@@ -447,11 +447,11 @@ body{
 .accept-icon{
     width: 15px;
     height: 15px;
-    background-image: url(/assets/images/svg/accept.svg);
+    background-image: url(../assets/images/svg../accept.svg);
 }
 
 .overview-image{
-    background-image: url(/assets/images/png/overview-image.png);
+    background-image: url(../assets/images/png/overview-image.png);
     height: 120px;
     width: 150px;
     align-self: flex-start;
@@ -734,7 +734,7 @@ body{
     position: absolute;
     top: 35px;
     right: 20px;
-    background-image: url(/assets/images/svg/visa.svg);
+    background-image: url(../assets/images/svg/visa.svg);
 }
 
 .mastercard{
@@ -743,7 +743,7 @@ body{
     position: absolute;
     top: 70px;
     right: 20px;
-    background-image: url(/assets/images/svg/mastercard.svg);
+    background-image: url(../assets/images/svg/mastercard.svg);
 }
 
 .btn-book{
