@@ -295,6 +295,11 @@ button:focus {
     align-items: flex-start;
 }
 
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .card h3{
     font-family: 'Forum', sans-serif;
     font-weight: 400;
@@ -308,11 +313,16 @@ button:focus {
 .card img{
     width: 440px;
     height: 285px;
+    
 }
 
  .card .rectangle-card{
     height: 2px;
     width: 300px;
+ }
+
+ .card .rectangle-card:hover{
+    transform: scaleX(1);
  }
 
  .card p{
