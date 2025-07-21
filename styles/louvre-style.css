@@ -157,6 +157,7 @@ width: 360px;
 height: 75px;
 background-color: #710707;
 border-radius: 10px;
+border: 0;
 }
 
 .discover-louvre-btn span{
@@ -1160,6 +1161,10 @@ footer nav ul{
     height: 24px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.social-icon>div:hover{
+    color: #9d8665;
 }
 
 .social-icon-youtube{
